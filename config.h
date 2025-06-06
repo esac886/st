@@ -191,6 +191,8 @@ static Shortcut shortcuts[] = {
     {TERMMOD, XK_plus, zoom, {.f = +1}},
     {ControlMask, XK_minus, zoom, {.f = -1}},
     {ControlMask, XK_equal, zoomreset, {.f = 0}},
+    {ControlMask, XK_k, kscrollup, {.i = 1}},
+    {ControlMask, XK_j, kscrolldown, {.i = 1}},
     {TERMMOD, XK_K, kscrollup, {.i = -1}},
     {TERMMOD, XK_J, kscrolldown, {.i = -1}},
 };
