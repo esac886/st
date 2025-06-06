@@ -16,6 +16,7 @@ sudo make clean install
 
 - [anysize](https://st.suckless.org/patches/anysize)
 - [scrollback (ringbuffer version)](https://st.suckless.org/patches/scrollback)
+- [externalpipe](https://st.suckless.org/patches/externalpipe)
 
 ## My additions
 
@@ -27,6 +28,7 @@ sudo make clean install
 - `Ctrl-Shift-j` for scrolling down
 - `Ctrl-+/-` to increase/decrease font size
 - `Ctrl-=` to make font default size (19)
+- `Ctrl-e` for opening current buffer in default editor via [st-open-in-editor](https://github.com/esac886/scripts/blob/main/st-open-in-editor)
 
 ---
 
