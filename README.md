@@ -28,7 +28,7 @@ sudo make clean install
 - `Ctrl-Shift-j` for scrolling down
 - `Ctrl-+/-` to increase/decrease font size
 - `Ctrl-=` to make font default size (19)
-- `Ctrl-e` for opening current buffer in default editor via [st-open-in-editor](https://github.com/esac886/scripts/blob/main/st-open-in-editor)
+- `Ctrl-e` for opening current buffer in nvim background process via [st-pipe-nvim](https://github.com/esac886/scripts/blob/main/st-pipe-nvim)
 
 ---
 
