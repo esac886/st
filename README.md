@@ -23,8 +23,10 @@ sudo make clean install
 
 - `Ctrl-Shift-c` for copying selected text
 - `Ctrl-Shift-v` for pasting
-- `Ctrl-Shift-k` for scrolling up
-- `Ctrl-Shift-j` for scrolling down
+- `Ctrl-Shift-k` for scrolling up by a screen
+- `Ctrl-Shift-j` for scrolling down by a screen
+- `Ctrl-↑` for scrolling up
+- `Ctrl-↓` for scrolling down
 - `Ctrl-+/-` to increase/decrease font size
 - `Ctrl-=` to make font default size (19)
 

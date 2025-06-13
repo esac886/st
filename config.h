@@ -6,7 +6,7 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 // static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
-static char *font = "JetBrainsMonoNerdFont:pixelsize=19:antialias=true:autohint=true";
+static char *font = "JetBrainsMono Nerd Font Mono:pixelsize=19:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -188,13 +188,13 @@ static Shortcut shortcuts[] = {
     {TERMMOD, XK_V, clippaste, {.i = 0}},
     {TERMMOD, XK_Y, selpaste, {.i = 0}},
     // customs
-    {TERMMOD, XK_plus, zoom, {.f = +1}},
-    {ControlMask, XK_minus, zoom, {.f = -1}},
-    {ControlMask, XK_equal, zoomreset, {.f = 0}},
-    {ControlMask, XK_k, kscrollup, {.i = 1}},
-    {ControlMask, XK_j, kscrolldown, {.i = 1}},
-    {TERMMOD, XK_K, kscrollup, {.i = -1}},
-    {TERMMOD, XK_J, kscrolldown, {.i = -1}},
+    { TERMMOD,      XK_plus,   zoom,          { .f = +1 } },
+    { ControlMask,  XK_minus,  zoom,          { .f = -1 } },
+    { ControlMask,  XK_equal,  zoomreset,     { .f = 0  } },
+    { ControlMask,  XK_Up,     kscrollup,     { .i = 1  } },
+    { ControlMask,  XK_Down,   kscrolldown,   { .i = 1  } },
+    { TERMMOD,      XK_K,      kscrollup,     { .i = -1 } },
+    { TERMMOD,      XK_J,      kscrolldown,   { .i = -1 } },
 };
 
 /*
