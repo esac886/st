@@ -12,6 +12,8 @@ sudo dnf install libX11-devel libXft-devel fontconfig-devel
 sudo make clean install
 ```
 
+Also this version of st depends on Caskaydia Mono Nerd Font. This can be changed in `config.h` static variable.
+
 ## Patches applied
 
 - [anysize](https://st.suckless.org/patches/anysize)
