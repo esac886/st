@@ -16,8 +16,8 @@ Also this version of st depends on Caskaydia Mono Nerd Font. This can be changed
 
 ## Patches applied
 
-- [anysize](https://st.suckless.org/patches/anysize)
-- [scrollback (ringbuffer version)](https://st.suckless.org/patches/scrollback)
+- [anysize (expected version)](https://st.suckless.org/patches/anysize)
+- [scrollback](https://st.suckless.org/patches/scrollback)
 
 ## My additions
 
@@ -30,7 +30,7 @@ Also this version of st depends on Caskaydia Mono Nerd Font. This can be changed
 - `Ctrl-↑` for scrolling up
 - `Ctrl-↓` for scrolling down
 - `Ctrl-+/-` to increase/decrease font size
-- `Ctrl-=` to make font default size (19)
+- `Ctrl-=` to make font default size (20)
 
 ---
 
