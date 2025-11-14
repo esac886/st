@@ -7,6 +7,9 @@
  */
 // static char *font = "CaskaydiaMono Nerd Font:pixelsize=20:antialias=true:autohint=true";
 static char *font = "JetBrainsMono Nerd Font Mono:pixelsize=20:antialias=true:autohint=true";
+static char *font2[] = {
+    "Noto Sans CJK JP:pixelsize=20:antialias=true:autohint=true"
+};
 static int borderpx = 2;
 
 /*
