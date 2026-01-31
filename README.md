@@ -18,6 +18,8 @@ Also this version of st depends on Caskaydia Mono Nerd Font. This can be changed
 
 - [anysize (expected version)](https://st.suckless.org/patches/anysize)
 - [scrollback](https://st.suckless.org/patches/scrollback)
+- [glyph wide support](https://st.suckless.org/patches/glyph_wide_support)
+- [font2](https://st.suckless.org/patches/font2)
 
 ## My additions
 
